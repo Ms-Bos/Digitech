@@ -5,9 +5,11 @@ body {
     padding:0;
     /*scheme dark blue #060a41, lightblue #C6D4FF, orange #f27419 */
 }
-h1 {
-    color: #060a41; 
+h5 {
+    color: #c6d4ff; 
     padding-left: 15px;
+    padding-top: 5px;
+    font-size: 2em;
 }
 h2 {
     padding-left: 15px;
@@ -17,6 +19,10 @@ h3 {
 }
 h4 {
     padding-left: 15px;
+}
+h1 {
+    padding-left: 15px;
+    color:#060a41
 }
 p {
     padding-left: 15px;
@@ -51,4 +57,20 @@ hr.style {
     border-style:solid;
     border-color: #E39774; 
 
+}
+header {
+    background-image: url('Images/Banner - Digital Technologies.jpg');   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #060a41;
+    color: #f8fdfe;
+    padding: 40px 10px 10px 10px;
+    margin: 0;
+}
+.nav-bg {
+    background-color: #060a4140;
+    color: #f8fdfe;
+    padding: 10px;
+    margin: 0;
 }
