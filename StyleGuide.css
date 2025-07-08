@@ -74,3 +74,25 @@ header {
     padding: 10px;
     margin: 0;
 }
+div.twosplit {
+    width:100%;
+    overflow: auto;
+}
+div.twosplit div {
+    width: 46%;
+    float: left;
+    padding:0% 2%;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 15px; /* Adds space on all sides */
+    box-sizing: border-box;
+}
+.image-right {
+    float: right;
+    margin: 15px;
+    box-sizing: border-box; 
+    max-width: 100%;
+    height: auto;
+}
